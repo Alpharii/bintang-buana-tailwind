@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="relative" >
+        <div class="bg-sky-400">
+            <ul class="flex p-3">
+                <li class="block ml-10  text-blue-950 font-bold hover:text-slate-200"><a href="#">Beranda</a></li>
+                <li class="block ml-10 hover:text-slate-200"><a href="#">Produk Kami</a></li>
+                <li class="block ml-10 hover:text-slate-200"><a href="#">Tentang Kami</a></li>
+                <li class="block ml-10 hover:text-slate-200"><a href="#">Kontak Kami</a></li>
+            </ul>
+        </div>
+        </nav>
+        <article>
+            <h1 class="mt-8 m-4 text-2xl font-bold font-poppins">Profil Perusahaan</h1>
+            <p class="m-4 font-poppins text-xs">Pt Bintang Buana adalah perusahaan yang berlokasi di Palembang dan memiliki spesialisasi dalam penjualan alat kebersihan. Perusahaan ini menyediakan berbagai produk seperti tisu, sabun cuci piring, dan sabun cuci lantai untuk memenuhi kebutuhan kebersihan pelanggan. Dengan fokus pada layanan penjualan produk-produk kebersihan, PT Bintang Buana melayani berbagai sektor, termasuk restoran.
+                Proses pemesanan barang sangat mudah, di mana pembeli dapat mengirimkan pesanan mereka kepada perusahaan. PT Bintang Buana memiliki tim kurir yang efisien yang akan mengirimkan barang ke tempat yang telah dipesan, sehingga memastikan pelanggan menerima produk dengan cepat dan tepat waktu. Dengan komitmen terhadap kualitas produk dan layanan pelanggan yang prima, PT Bintang Buana menjadi pilihan utama bagi pelanggan yang membutuhkan solusi kebersihan berkualitas di Palembang.
+            </p>
+        </article>
+        <article>
+            <h1 class="mt-8 m-4 text-x font-medium font-poppins">Beli Sekarang!!</h1>
+           <div class="inline-block">
+            
+            <div class="card w-56 h-96 bg-slate-300 m-4 rounded-lg font-poppins inline-block">
+                <img class="w-full rounded-t-lg" src="/img/sino.jpg" alt="sino">
+                <div class="px-6 py-4">
+                    <div class="font-bold mb-2">Sabun Cuci Piring Sino</div>
+                        <p class="text-gray-700">Rp. 78.000,00</p>
+                </div>
+                <div class="px-6 pt-2 pb-2">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm 
+                    font-semibold text-gray-700 mr-2 mb-2 hover:bg-sky-400">Pesan Sekarang</span>  
+                </div>
+            </div>
+
+            <div class="card w-56 h-96 bg-slate-300 m-4 rounded-lg font-poppins inline-block">
+                <img class="w-full rounded-t-lg" src="/img/montiss.jpg" alt="montis">
+                <div class="px-6 py-4">
+                    <div class="font-bold mb-2">Tisu Montis</div>
+                        <p class="text-gray-700">Rp. 62.000,00</p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm 
+                    font-semibold text-gray-700 mr-2 mb-2 hover:bg-sky-400">Pesan Sekarang</span>  
+                </div>
+            </div>
+
+            <div class="card w-56 h-96 bg-slate-300 m-4 rounded-lg font-poppins inline-block">
+                <img class="w-full rounded-t-lg" src="/img/cassie.jpg" alt="cassie">
+                <div class="px-6 py-4">
+                    <div class="font-bold mb-2">Tisu Cassie</div>
+                        <p class="text-gray-700">Rp. 50.000,00</p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm 
+                    font-semibold text-gray-700 mr-2 mb-2 hover:bg-sky-400">Pesan Sekarang</span>  
+                </div>
+            </div>
+           </div>
+        </article>
+    
+
+        <section class="bg-white dark:bg-gray-900 font-poppins mt-10">
+            <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+                <h2 class="mb-4 text-4xl tracking-tight font-bold text-center text-gray-900 dark:text-white">Contact Us</h2>
+                <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Ingin berlangganan Untuk Bahan Kebersihan? Hubungi Kami!!</p>
+                <form action="#" class="space-y-8">
+                    <div>
+                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email</label>
+                        <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="nama@gmail.com" required>
+                    </div>
+                    <div>
+                        <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Nomor Whats App</label>
+                        <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Biarkan Kami Menghubungimu" required>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Pesan</label>
+                        <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Tinggalkan Pesan..."></textarea>
+                    </div>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"> Kirim</button>
+                </form>
+            </div>
+          </section>
+
+<br><br><br><br>
+<footer
+  class="bg-neutral-200 text-center dark:bg-neutral-700 lg:text-left">
+  <div class="p-4 text-center text-neutral-700 dark:text-neutral-200">
+    © Dibuat Oleh Bintang Alphari
+  </div>
+</footer>
+</body>
+</html>
+
